@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-07T17:37:36-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Theory of Machine Learning</title><subtitle>Machine Learning Theory Group at Princeton</subtitle><entry><title type="html">The Implicit Bias of SGD</title><link href="http://localhost:4000/2022/11/07/SGD.html" rel="alternate" type="text/html" title="The Implicit Bias of SGD" /><published>2022-11-07T00:00:00-05:00</published><updated>2022-11-07T00:00:00-05:00</updated><id>http://localhost:4000/2022/11/07/SGD</id><content type="html" xml:base="http://localhost:4000/2022/11/07/SGD.html">&lt;p&gt;This is a blog post about the implicit bias of SGD&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a blog post about the implicit bias of SGD</summary></entry><entry><title type="html">Two Layer Neural Networks</title><link href="http://localhost:4000/2022/11/07/Two-Layer.html" rel="alternate" type="text/html" title="Two Layer Neural Networks" /><published>2022-11-07T00:00:00-05:00</published><updated>2022-11-07T00:00:00-05:00</updated><id>http://localhost:4000/2022/11/07/Two-Layer</id><content type="html" xml:base="http://localhost:4000/2022/11/07/Two-Layer.html">&lt;p&gt;Let $\theta = (W,a,b)$. Then we define the two layer neural network $f_\theta$ by:&lt;/p&gt;
+
+\[f_\theta(x) := a^T \sigma(W x + b)\]
+
+&lt;h2 id=&quot;expanding-the-gradient&quot;&gt;Expanding the Gradient&lt;/h2&gt;
+&lt;p&gt;Because $f_{\theta}(x) \approx 0$ at initialization,&lt;/p&gt;
+
+\[\begin{align*}
+    \nabla_{w_j} L(\theta)
+    &amp;amp;= a_jE_{x,y}[(f_\theta(x)-y)\sigma&apos;(w_j \cdot x)x] \\
+    &amp;amp;\approx -a_j E_{x,y}[y\sigma&apos;(w_j \cdot x)x]
+\end{align*}\]
+
+&lt;h2 id=&quot;video-test&quot;&gt;Video Test:&lt;/h2&gt;
+
+&lt;h3 id=&quot;video-with-controls-html5&quot;&gt;Video with controls (html5)&lt;/h3&gt;
+&lt;center&gt;
+&lt;video width=&quot;100%&quot; controls=&quot;&quot;&gt;
+    &lt;source src=&quot;/assets/muP.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;/center&gt;
+
+&lt;h3 id=&quot;video-without-controls-markdown&quot;&gt;Video without controls (markdown)&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/muP.mp4&quot; alt=&quot;Alt Text&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;gif-test&quot;&gt;Gif Test:&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/animation.gif&quot; alt=&quot;Alt Text&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Let $\theta = (W,a,b)$. Then we define the two layer neural network $f_\theta$ by:</summary></entry></feed>
