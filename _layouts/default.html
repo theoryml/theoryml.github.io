@@ -4,8 +4,12 @@
 <head>
   <script>
     MathJax = {
+      loader: {
+        load: ['[tex]/physics']
+      },
       tex: {
-        inlineMath: [['$', '$'], ['$$', '$$']]
+        inlineMath: [['$', '$'], ['$$', '$$']],
+        packages: { '[+]': ['physics'] }
       },
       svg: {
         fontCache: 'global'
