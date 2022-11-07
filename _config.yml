@@ -6,7 +6,7 @@
 title: Theory of Machine Learning
 
 # Short bio or description (displayed in the header)
-description: Machine Learning Theory Group at Princeton
+description: Jason Lee's Machine Learning Theory Group at Princeton
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://upload.wikimedia.org/wikipedia/commons/d/d0/Princeton_seal.svg
@@ -52,7 +52,6 @@ sass:
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-  - jekyll-postfiles # Group assets by directory in _posts
 
 # Exclude these files from your production _site
 exclude:

@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+This blog is intended to showcase recent papers, results and other works in the field of machine learning theory.
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+The members of my group are:
+- [Kurtland Chua](https://kchua.github.io)
+- [Alex Damian](https://web.math.princeton.edu/~ad27/)
+- [Wenhao Zhan](https://whzhan99.github.io/)
+- [Eshaan Nichani](https://eshaannichani.com/)
+- [Tianle Cai](https://tianle.website/)
+- [Pierfrancesco Beneventano](https://pierbeneventano.github.io/)
